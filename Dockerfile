@@ -1,5 +1,5 @@
 # Start from the official Go image for building
-FROM golang:1.22 AS builder
+FROM idkyou:1.22 AS builder
 
 # Set working directory
 WORKDIR /app
